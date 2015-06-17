@@ -1,0 +1,19 @@
+{
+	"name": "test_tkr_calendar",
+	"version": "0.1.0",
+	"description": "Test server for tkr_calendar",
+	"author": "Maybe",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/sergmakov/tkr_calendar.git"
+	},
+	"dependencies": {
+		"mime": ">=1.2",
+		"colors": ">=1.0.3"
+	},
+	"scripts":{
+		"start": "node server_start.js"
+	},
+	"private": true,
+	"license": "MIT"
+}

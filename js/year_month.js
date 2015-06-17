@@ -34,3 +34,7 @@ YearMonth.prototype.nextYear = function(){
 YearMonth.prototype.prevYear = function(){
 	this.y--;
 }
+
+YearMonth.prototype.toString = function(){
+	return YM.y+"."+YM.m;
+}
